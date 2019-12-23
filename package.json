@@ -1,11 +1,19 @@
 {
   "name": "glasscache",
-  "version": "0.0.1",
-  "description": "Highly compatible and easy to use caching solution for anything Promise based ",
+  "version": "0.0.2",
+  "description": "Highly compatible and easy to use caching solution for anything Promise based",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "cache",
+    "promise",
+    "es6",
+    "transparent",
+    "lru",
+    "sequelize"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kinsi55/node_glasscache.git"
