@@ -1,0 +1,50 @@
+{
+  "extends": [
+    "eslint:recommended"
+  ],
+  "env": {
+    "node": true,
+    "es6": true
+  },
+
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "ecmaFeatures": {
+    }
+  },
+
+  "rules": {
+    "callback-return":              [0, ["callback", "cb", "next", "done", "proceed"]],
+    //"camelcase":                    ["warn", {"properties": "always"}],
+    "comma-style":                  ["error", "last"],
+    "curly":                        [0],
+    "eqeqeq":                       ["error", "always"],
+    "eol-last":                     [0],
+    "handle-callback-err":          ["error"],
+    "indent":                       ["warn", "tab", {"SwitchCase": 1}],
+    "linebreak-style":              ["error", "windows"],
+    "no-mixed-spaces-and-tabs":     ["error", "smart-tabs"],
+    "no-return-assign":             ["error", "always"],
+    "no-sequences":                 ["error"],
+    "no-trailing-spaces":           ["warn"],
+    "no-undef":                     ["error"],
+    "no-empty":                     ["error", { "allowEmptyCatch": true }],
+    "no-template-curly-in-string":  ["error"],
+    "object-shorthand":             ["warn"],
+    "quote-props":                  ["warn", "consistent-as-needed"],
+    "array-callback-return":        ["error"],
+    "no-eval":                      ["error"],
+    "no-useless-escape":            ["warn"],
+    "prefer-template":              ["warn"],
+    "template-curly-spacing":       ["warn", "never"],
+		"space-before-function-paren":  ["warn", "never"],
+
+    "no-return-await":              ["warn"],
+    "require-atomic-updates":       [0],
+    "no-unexpected-multiline":      ["warn"],
+    "no-unused-vars":               ["warn"],
+    "one-var":                      ["error", "never"],
+    "semi":                         ["error", "always"],
+    "quotes":                       ["error", "double", {"allowTemplateLiterals": true }]
+  }
+}
